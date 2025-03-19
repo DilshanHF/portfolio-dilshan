@@ -55,7 +55,7 @@ const LoadingPage: React.FC<LoadingPageProps> = ({
         
         <div className="relative z-10 animate-float">
           <span className="text-4xl md:text-5xl font-display font-bold text-gradient mb-8">
-            Portfolio
+            DILSHAN
           </span>
           <div className="flex items-center justify-center mt-4">
             <Loader className="animate-spin w-8 h-8 text-blue-500" />
@@ -70,7 +70,7 @@ const LoadingPage: React.FC<LoadingPageProps> = ({
         </div>
         
         <div className="mt-3 text-sm text-muted-foreground z-10">
-          Loading your experience...
+          Loading my experience...
         </div>
       </div>
     </div>

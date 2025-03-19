@@ -47,7 +47,7 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
     )}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#hero" className="text-2xl font-display font-bold tracking-tight hover:opacity-80 transition-opacity">
-          <span className="text-gradient">Portfolio</span>
+          <span className="text-gradient">DF</span>
         </a>
 
         {/* Desktop Navigation */}

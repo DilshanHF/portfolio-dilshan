@@ -89,23 +89,23 @@ const AboutSection: React.FC<AboutSectionProps> = ({ className }) => {
               
               <div className="animate-on-scroll opacity-0 mt-8 grid grid-cols-2 gap-4">
                 <div className="p-4 rounded-xl backdrop-blur-sm bg-white/5 border border-white/10 transition-all duration-300 hover:bg-white/10">
-                  <div className="font-display text-2xl font-bold text-blue-600">4+</div>
+                  <div className="font-display text-2xl font-bold text-blue-600">1+</div>
                   <div className="text-sm text-gray-600">Years Experience</div>
                 </div>
                 
                 <div className="p-4 rounded-xl backdrop-blur-sm bg-white/5 border border-white/10 transition-all duration-300 hover:bg-white/10">
-                  <div className="font-display text-2xl font-bold text-blue-600">50+</div>
+                  <div className="font-display text-2xl font-bold text-blue-600">15+</div>
                   <div className="text-sm text-gray-600">Projects Completed</div>
                 </div>
                 
                 <div className="p-4 rounded-xl backdrop-blur-sm bg-white/5 border border-white/10 transition-all duration-300 hover:bg-white/10">
                   <div className="font-display text-2xl font-bold text-blue-600">30+</div>
-                  <div className="text-sm text-gray-600">Happy Clients</div>
+                  <div className="text-sm text-gray-600">Certificate</div>
                 </div>
                 
                 <div className="p-4 rounded-xl backdrop-blur-sm bg-white/5 border border-white/10 transition-all duration-300 hover:bg-white/10">
-                  <div className="font-display text-2xl font-bold text-blue-600">12+</div>
-                  <div className="text-sm text-gray-600">Awards Received</div>
+                  <div className="font-display text-2xl font-bold text-blue-600">10+</div>
+                  <div className="text-sm text-gray-600">Hours of coding</div>
                 </div>
               </div>
             </div>

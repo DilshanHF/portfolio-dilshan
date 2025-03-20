@@ -50,12 +50,17 @@ const AboutSection: React.FC<AboutSectionProps> = ({ className }) => {
             <div className="relative">
               <div className="animate-on-scroll opacity-0 relative z-10">
                 <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-xl">
-                  <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-cyan-400/20 animate-glow" />
-                  <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80')]  bg-cover bg-center" />
+                  {/*<div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-cyan-400/20 animate-glow"/>*/}
+                  <div
+                      className="w-full min-h-[800px] bg-cover bg-center"
+                      style={{backgroundImage: "url(/assests/7.JPG)"}}
+                  />
+
                 </div>
               </div>
-              
-              <div className="absolute -bottom-6 -right-6 w-72 h-72 rounded-full bg-blue-100 filter blur-3xl opacity-20 animate-float" />
+
+              <div
+                  className="absolute -bottom-6 -right-6 w-72 h-72 rounded-full bg-blue-100 filter blur-3xl opacity-20 animate-float" />
               <div className="absolute -top-6 -left-6 w-72 h-72 rounded-full bg-cyan-100 filter blur-3xl opacity-20 animate-float" style={{ animationDelay: '2s' }} />
             </div>
           </div>
@@ -72,7 +77,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ className }) => {
               
               <div className="animate-on-scroll opacity-0 space-y-4 text-gray-600">
                 <p>
-                  I'm a dedicated developer with a passion for creating elegant, user-focused digital experiences. 
+                  I'm a dedicated developer with a passion for creating elegant, user-focused web development.
                   I believe in the power of thoughtful design and clean code to solve complex problems.
                 </p>
                 
@@ -91,6 +96,18 @@ const AboutSection: React.FC<AboutSectionProps> = ({ className }) => {
                 <div className="p-4 rounded-xl backdrop-blur-sm bg-white/5 border border-white/10 transition-all duration-300 hover:bg-white/10">
                   <div className="font-display text-2xl font-bold text-blue-600">1+</div>
                   <div className="text-sm text-gray-600">Years Experience</div>
+
+
+
+
+
+
+
+
+
+
+
+                  
                 </div>
                 
                 <div className="p-4 rounded-xl backdrop-blur-sm bg-white/5 border border-white/10 transition-all duration-300 hover:bg-white/10">

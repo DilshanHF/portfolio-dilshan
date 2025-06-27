@@ -28,24 +28,24 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Chanikma Interior - WebApp",
     description: "A fully responsive e-commerce platform with user authentication, product filtering, and secure payment processing.",
-    tags: ["React", "Node.js", "Stripe", "MongoDB"],
+    tags: ["React", "Node.js", "Redux", "MongoDB"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1024&q=80",
     link: "#",
   },
   {
     id: 2,
-    title: "Content Management System",
-    description: "A custom CMS with a drag-and-drop editor, media management, and multi-user collaboration features.",
-    tags: ["TypeScript", "Next.js", "Prisma", "PostgreSQL"],
+    title: "Crop Monoitoring System",
+    description: "This project is a Crop Monitoring System developed for Green Shadow (Pvt) Ltd., a mid-scale farm specializing in root crops and cereals. The system aims to manage the company’s fields, crops, staff, vehicles, and equipment while supporting monitoring logs and data analysis.",
+    tags: ["SpringBoot", "JWT", "Html", "JavaScript"],
     image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1024&q=80",
     link: "#",
   },
   {
     id: 3,
-    title: "Health & Fitness App",
-    description: "A mobile-first application for tracking workouts, nutrition, and health metrics with personalized recommendations.",
+    title: "Chanikma Interior MobileApp",
+    description: "Chanikma Interior is a React Native application designed for  on the go. Whether you're a professional tradesperson or a DIY enthusiast, you can easily browse, rent, and manage tool rentals right from your mobile device",
     tags: ["React Native", "Firebase", "Redux", "Machine Learning"],
     image: "https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1024&q=80",
     link: "#",
@@ -192,7 +192,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ className }) => {
             variant="outline" 
             className="rounded-full px-6 hover:bg-gray-50 hover:shadow-md"
           >
-            <a href="#">
+            <a href="https://github.com/DilshanHF">
               View All Projects
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>

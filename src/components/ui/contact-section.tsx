@@ -109,8 +109,8 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className }) => {
                 </div>
                 <div>
                   <div className="font-medium">Email</div>
-                  <a href="mailto:hello@example.com" className="text-blue-600 hover:underline">
-                    hello@example.com
+                  <a href="dilshanfonseka76@gmail.com" className="text-blue-600 hover:underline">
+                    dilshanfonseka76@gmail.com
                   </a>
                 </div>
               </div>
@@ -135,7 +135,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className }) => {
                 <div>
                   <div className="font-medium">Phone</div>
                   <a href="tel:+1234567890" className="text-blue-600 hover:underline">
-                    +1 (234) 567-890
+                    +94 76-6275729
                   </a>
                 </div>
               </div>
@@ -166,7 +166,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className }) => {
                 <div>
                   <div className="font-medium">Location</div>
                   <div className="text-gray-600">
-                    San Francisco, CA
+                    Panadura,Sri Lanka
                   </div>
                 </div>
               </div>
@@ -246,7 +246,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className }) => {
                         name="name"
                         value={formState.name}
                         onChange={handleChange}
-                        placeholder="John Doe"
+                        placeholder="Dilshan fonseka"
                         required
                         className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
                       />
@@ -262,7 +262,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ className }) => {
                         name="email"
                         value={formState.email}
                         onChange={handleChange}
-                        placeholder="john@example.com"
+                        placeholder="dilshan@gmail.com"
                         required
                         className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
                       />

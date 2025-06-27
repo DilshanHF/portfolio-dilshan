@@ -18,7 +18,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#hero" className="text-2xl font-display font-bold tracking-tight hover:opacity-80 transition-opacity">
-              <span className="text-gradient">Portfolio</span>
+              <span className="text-gradient">Dilshan</span>
             </a>
             <p className="text-gray-600 mt-2 max-w-sm">
               Building beautiful, functional digital experiences with meticulous attention to detail.
@@ -32,6 +32,7 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
                 {[
                   { name: 'Home', id: 'hero' },
                   { name: 'About', id: 'about' },
+                  { name: 'Education', id: 'education' },
                   { name: 'Projects', id: 'projects' },
                   { name: 'Skills', id: 'skills' },
                   { name: 'Contact', id: 'contact' },
@@ -77,22 +78,22 @@ const Footer: React.FC<FooterProps> = ({ className }) => {
               <ul className="space-y-2">
                 <li>
                   <a 
-                    href="mailto:hello@example.com"
+                    href="mailto:dilshanfonseka76@gmail.com"
                     className="text-gray-600 hover:text-blue-600 transition-colors"
                   >
-                    hello@example.com
+                    dilshanfonseka76@gmail.com
                   </a>
                 </li>
                 <li>
                   <a 
-                    href="tel:+1234567890"
+                    href="tel:+94766275729"
                     className="text-gray-600 hover:text-blue-600 transition-colors"
                   >
-                    +1 (234) 567-890
+                    +(94) 766275729
                   </a>
                 </li>
                 <li className="text-gray-600">
-                  San Francisco, CA
+                  Panadura, Sri Lanka
                 </li>
               </ul>
             </div>

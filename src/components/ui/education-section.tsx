@@ -18,28 +18,28 @@ interface Education {
 
 const educationList: Education[] = [
   {
-    degree: "Master of Computer Science",
-    institution: "Stanford University",
-    location: "Stanford, CA",
-    period: "2018 - 2020",
-    description: "Specialized in Artificial Intelligence and Machine Learning. Graduated with honors and completed a thesis on neural network optimization techniques.",
-    logo: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1024&q=80"
+    degree: "GDSE of Software Engineering",
+    institution: "Institute of Software Engineering",
+    location: "Panadura",
+    period: "2022 - 2025",
+    description: "Specialized in Full-stack Development and Machine Learning. Graduated with honors and completed a thesis on neural network optimization techniques.",
+    logo: "../assests/Ijse logo.jpg",
   },
   {
-    degree: "Bachelor of Science in Software Engineering",
-    institution: "University of California, Berkeley",
-    location: "Berkeley, CA",
-    period: "2014 - 2018",
-    description: "Focused on full-stack development and participated in numerous hackathons. Completed an internship at a leading tech company during junior year.",
-    logo: "https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1024&q=80"
+    degree: "Diploma in Information Technoology",
+    institution: "Esoft Metro Campus",
+    location: "Panadura",
+    period: "2020-2021",
+    description: "Earned a Diploma in Information Technology with a strong foundation in software development, databases, and networking.",
+    logo: "../assests/Esoft Logo.jpg",
   },
   {
-    degree: "Certificate in UX/UI Design",
-    institution: "California Institute of Design",
-    location: "San Francisco, CA",
-    period: "2016",
-    description: "Intensive 6-month program focused on user experience principles, interface design, and prototyping tools. Designed a complete mobile application as capstone project.",
-    logo: "https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1024&q=80"
+    degree: "Award for GCE A/L's",
+    institution: " Royal Collage Panadura",
+    location: "Panadura",
+    period: "2019",
+    description: "Completed school education in the Maths stream, successfully following A/Ls with a focus on problem-solving and analytical skills.",
+    logo: "../assests/royal logo.jpeg",
   }
 ];
 
